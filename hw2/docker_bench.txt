@@ -1,0 +1,80 @@
+
+-g flag
+Naive matmul: Ok
+Strassen matmul: Ok
+-------------------------
+n: 512, trials: 16
+
+Blas matmul:
+Mean: 0.065400 seconds, deviation: 0.000610 seconds
+
+Naive matmul:
+Mean: 0.710719 seconds, deviation: 0.000557 seconds
+
+Strassen matmul:
+Mean: 0.566804 seconds, deviation: 0.010638 seconds
+-------------------------
+-------------------------
+n: 1024, trials: 8
+
+Blas matmul:
+Mean: 0.504200 seconds, deviation: 0.001562 seconds
+
+Naive matmul:
+Mean: 5.697813 seconds, deviation: 0.055703 seconds
+
+Strassen matmul:
+Mean: 4.088066 seconds, deviation: 0.112296 seconds
+-------------------------
+-------------------------
+n: 2048, trials: 4
+
+Blas matmul:
+Mean: 5.203314 seconds, deviation: 0.040553 seconds
+
+Naive matmul:
+Mean: 45.465864 seconds, deviation: 0.958029 seconds
+
+Strassen matmul:
+Mean: 29.385931 seconds, deviation: 0.344793 seconds
+-------------------------
+
+-O3 flag
+Naive matmul: Ok
+Strassen matmul: Ok
+-------------------------
+n: 512, trials: 16
+
+Blas matmul:
+Mean: 0.065334 seconds, deviation: 0.002328 seconds
+
+Naive matmul:
+Mean: 0.027512 seconds, deviation: 0.000871 seconds
+
+Strassen matmul:
+Mean: 0.021574 seconds, deviation: 0.000146 seconds
+-------------------------
+-------------------------
+n: 1024, trials: 8
+
+Blas matmul:
+Mean: 0.514643 seconds, deviation: 0.004564 seconds
+
+Naive matmul:
+Mean: 0.236592 seconds, deviation: 0.001332 seconds
+
+Strassen matmul:
+Mean: 0.157443 seconds, deviation: 0.001454 seconds
+-------------------------
+-------------------------
+n: 2048, trials: 4
+
+Blas matmul:
+Mean: 5.292517 seconds, deviation: 0.037736 seconds
+
+Naive matmul:
+Mean: 6.013196 seconds, deviation: 0.047599 seconds
+
+Strassen matmul:
+Mean: 1.145771 seconds, deviation: 0.001950 seconds
+-------------------------
