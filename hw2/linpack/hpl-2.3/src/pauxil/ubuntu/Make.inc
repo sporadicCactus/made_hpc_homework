@@ -1,0 +1,1 @@
+/home/gleb/MADE/made_hpc/hw2/linpack/hpl-2.3/Make.ubuntu
